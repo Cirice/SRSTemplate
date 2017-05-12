@@ -252,4 +252,4 @@ TSWLatexianTemp*
 *.ind
 *.fls
 *.ilg
-*.pdf
+#*.pdf
