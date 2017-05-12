@@ -1,0 +1,13 @@
+# list of fonts
+B Nazanin Bold.ttf
+B Nazanin Outline.ttf
+B Nazanin.ttf
+B Zar Bold.ttf
+B Zar.ttf
+timesbd.ttf
+timesbi.ttf
+timesi.ttf
+times.ttf
+XB Niloofar.ttf
+XB Titre.ttf
+XB Zar.ttf
