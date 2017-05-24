@@ -2,22 +2,36 @@
 \input{premeable}
 
 \begin{document}
-\title{سند توصیف نیازمندی‌های نرم‌افزار \\ \lr{Software Requirement Specification}}
-\author{حسن عابدی}
+\title{سند توصیف نیازمندی‌های نرم‌افزار \\ 
+<<نام نرم‌افزار>>
+}
+\author{<<نام نویسنده>> \\
+ <<ایمیل نویسنده>>}
+
+\date{<<تاریخ آخرین نگارش>>}
 %\today
-\BgThispage
+%\BgThispage
 \maketitle
+\pagestyle{plain}
+\pagenumbering{harfi}
+\clearpage
 \tableofcontents
 \clearpage
-\pagestyle{plain}
+\listoffigures
+%\listoftables
+\clearpage
+\pagenumbering{arabic}
+
+% revisions table
+\input{chapters/0_revisions}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % chapters
-\input{chapters/0_introduction}
-\input{chapters/1_overall_description}
-\input{chapters/2_external_interface_requirements}
-\input{chapters/3_system_features}
-\input{chapters/4_nonfunctional_requirements}
+\input{chapters/1_introduction}
+\input{chapters/2_overall_description}
+\input{chapters/3_external_interface_requirements}
+\input{chapters/4_system_features}
+\input{chapters/5_nonfunctional_requirements}
 \input{chapters/5_other_requirements}
 
 \end{document}
