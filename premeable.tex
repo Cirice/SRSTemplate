@@ -124,11 +124,8 @@
 }
 
 \makeatletter
-\def\set@docident{%
+\def\set@docident{
   \begingroup
-    % yes, a big \ifcase would be more straightforward;
-    % no, that wouldn't be any fun at all
-    % (also it ends up looking messy and even tricksier).
     \def\@step##1##2\@nil{\advance\@tempcnta##1 \def\@tempa{##2}}
     \def\@tempa{{31}{28}{31}{30}{31}{30}{31}{31}{30}{31}{30}{31}}%
     \@tempcnta=\day             % day of month
