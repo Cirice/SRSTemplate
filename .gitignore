@@ -253,3 +253,5 @@ TSWLatexianTemp*
 *.fls
 *.ilg
 *.pdf
+*.csv
+*.tsv
